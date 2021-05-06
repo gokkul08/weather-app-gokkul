@@ -6,5 +6,5 @@ const Title = styled.h1`
 `
 
 export default function Home() {
-  return <Title>My page</Title>
+  return <Title>My page configured with NextJS, React, TypeScript, Styled Components, Material UI, ESLint and Prettier</Title>
 }
