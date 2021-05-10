@@ -10,7 +10,7 @@ The application has CI/CD setup with a Vercel account. Any commits to the defaul
 
 ## How to use it?
 
-First Install all dependencies - `yarn install`
+Install all dependencies - `yarn install`
 
 Develop locally after installing all dependencies - `yarn dev`
 
