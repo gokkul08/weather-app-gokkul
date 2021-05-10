@@ -141,7 +141,7 @@ const WeatherDetails = (props: WeatherDetailsProps) => {
                     </Grid>
                     <Grid item xs>
                     <Typography>
-                            Weather Forcast for the week
+                            Weather Forcast for the day
                         </Typography>
                         <TableContainer component={Paper}>
                                 <Table>
