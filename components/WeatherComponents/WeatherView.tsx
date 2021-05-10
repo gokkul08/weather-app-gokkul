@@ -12,7 +12,38 @@ import Link from 'next/link';
 import { timeFormatter, temperatureInCelcius, temperatureInFaranheit } from '../../utilities/weatherUtilities';
 
 interface WeatherViewProps {
-    data: object;
+    data: {
+        coord: {
+            lat: number,
+            lon: number,
+        }
+        dt: number,
+        main: {
+            temp: number, 
+            temp_max: number,
+            temp_min: number,
+            feels_like: number,
+            pressure: number,
+            humidity: number,
+        },
+        name: string,
+        weather: [
+            {
+                main: string,
+                icon: string,
+            }
+        ],
+        sys: {
+            sunrise: number,
+            sunset: number,
+            country: string,
+        }
+        timezone: number,
+        wind: {
+            deg: number,
+            speed: number,
+        }
+    };
 };
 
 export const WeatherView = (props: WeatherViewProps) => {

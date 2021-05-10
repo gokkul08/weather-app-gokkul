@@ -19,7 +19,29 @@ const StyledContainer = styled(Container)`
     `;
 
 interface WeatherDetailsProps {
-    data: object;
+    data: {
+        daily: [
+            {
+                dt: number, 
+                temp: {day: number, night: number}, 
+                sunrise: number, 
+                sunset: number, 
+                moonrise: number, 
+                moonset: number,
+                weather: [{icon: string}],
+                humidity: number,
+            }
+        ],
+        hourly: [
+            {
+                dt: number, 
+                temp: number, 
+                feels_like: number, 
+                weather: [{icon: string}],
+            }
+        ],
+        timezone_offset: number,
+    };
 };
 
 const WeatherDetails = (props: WeatherDetailsProps) => {
