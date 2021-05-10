@@ -65,7 +65,6 @@ export const WeatherView = (props: WeatherViewProps) => {
     const minTemperature = state ? temperatureInCelcius(data.main.temp_min) : temperatureInFaranheit(data.main.temp_min);
     const feelsLikeTemperature = state ? temperatureInCelcius(data.main.feels_like) : temperatureInFaranheit(data.main.feels_like);
     const locationName = `${data.name}, ${data.sys.country}`;
-    const weatherDescription = data.weather[0].main;
     const windDegree = data.wind.deg;
     const windSpeed = data.wind.speed;
     const humidity = data.main.humidity;
