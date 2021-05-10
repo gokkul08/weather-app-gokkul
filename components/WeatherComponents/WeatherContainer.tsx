@@ -23,7 +23,7 @@ export const WeatherContainer = () => {
     };
 
     const handleWeatherClick = async () => {
-        const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${locationInput}&appid=4bf2d273aa7c6b1998f234d78e609def`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${locationInput}&appid=4bf2d273aa7c6b1998f234d78e609def`);
         const data = await response.json();
         if (data) {
             setWeatherData(data);
