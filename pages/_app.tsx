@@ -1,7 +1,9 @@
-import React from 'react'
-import type { AppProps } from 'next/app'
-import { ThemeProvider } from 'styled-components'
+import React from 'react';
+import type { AppProps } from 'next/app';
+import { StylesProvider } from '@material-ui/styles';
+import { ThemeProvider } from 'styled-components';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import NavigationBar from '../components/NavigationBar';
 
 const theme = {
   primary: 'green',
@@ -18,9 +20,12 @@ export default function App({ Component, pageProps}: AppProps):  JSX.Element{
       }, []);
 
     return (
-      <ThemeProvider theme={theme}>
-          <CssBaseline />
-        <Component {...pageProps} />
-      </ThemeProvider>
+        <StylesProvider injectFirst>
+            <ThemeProvider theme={theme}>
+                <CssBaseline />
+                <NavigationBar />
+                <Component {...pageProps} />
+            </ThemeProvider>
+        </StylesProvider>
     )
   }

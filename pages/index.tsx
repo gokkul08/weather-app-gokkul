@@ -1,10 +1,14 @@
-import styled from 'styled-components'
+import Container from '@material-ui/core/Container';
+import WeatherContainer from '../components/WeatherComponents/WeatherContainer';
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+export const Home = () => {
+  return (
+  <div>
+    <Container maxWidth="md">
+      <WeatherContainer />
+    </Container>
+  </div>
+  )
+};
 
-export default function Home() {
-  return <Title>My page configured with NextJS, React, TypeScript, Styled Components, Material UI, ESLint and Prettier</Title>
-}
+export default Home;

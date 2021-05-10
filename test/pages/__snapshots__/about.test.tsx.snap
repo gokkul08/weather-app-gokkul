@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root about__StyledContainer-e7e2cb-0 kWwa-DU MuiContainer-maxWidthMd"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+      >
+        <div
+          class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                What is this website?
+              </p>
+            </div>
+            <div
+              aria-disabled="false"
+              aria-hidden="true"
+              class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-container MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1"
+                    >
+                      This application is created to help users access their weather data
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                What features does this website offer?
+              </p>
+            </div>
+            <div
+              aria-disabled="false"
+              aria-hidden="true"
+              class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-container MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1"
+                    />
+                    <li>
+                      Users can get Weather data for any location in the world
+                    </li>
+                    <li>
+                      Users can search by City, State and Zip
+                    </li>
+                    <li>
+                      Users can convert weather temperature from °C to °F and vice-versa
+                    </li>
+                    <li>
+                      Users can access a detailed weather page to get more details on their search
+                    </li>
+                    <p />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                What technologies does this website use?
+              </p>
+            </div>
+            <div
+              aria-disabled="false"
+              aria-hidden="true"
+              class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-container MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1"
+                    >
+                      This website uses NextJS, ReactJS, TypeScript, Styled Components and Material UI
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            aria-disabled="false"
+            aria-expanded="false"
+            class="MuiButtonBase-root MuiAccordionSummary-root"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiAccordionSummary-content"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Author
+              </p>
+            </div>
+            <div
+              aria-disabled="false"
+              aria-hidden="true"
+              class="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiCollapse-container MuiCollapse-hidden"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  role="region"
+                >
+                  <div
+                    class="MuiAccordionDetails-root"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1"
+                    >
+                      This website is developed by Annamalai Gokkul Natarajan. I can be reached at agn253@nyu.edu
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
