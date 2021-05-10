@@ -1,5 +1,9 @@
+/**
+ * This component provides the weather view after we complete the search for a location
+ * It accepts the weather data as props, manipulates the data to make it available for viewing on the screen
+ */
+
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';

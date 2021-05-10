@@ -1,10 +1,14 @@
+/**
+ * This page is the weather container that performs the API fetching operation for weather from OpenWeatherMaps
+ * It allows us to get the weather data for a location and passes date to the WeatherView component
+ */
+
 import React, { useState } from 'react';
 import WeatherLocationSearch from './WeatherLocationSearch';
 import styled from 'styled-components';
 import Grid from '@material-ui/core/Grid';
 import WeatherView from './WeatherView';
 import Button from '@material-ui/core/Button';
-
 
 const StyledGrid = styled(Grid)`
         padding-top: 20px;

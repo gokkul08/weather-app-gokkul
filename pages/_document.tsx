@@ -1,3 +1,7 @@
+/**
+ * This page is required as we are using Material UI and styled-components. This will help load JSS for the CSS components
+ */
+
 import Document, { DocumentContext } from 'next/document'
 import { ServerStyleSheet as StyledComponentSheets } from 'styled-components'
 import { ServerStyleSheets as MaterialUiServerStyleSheets } from '@material-ui/core/styles'

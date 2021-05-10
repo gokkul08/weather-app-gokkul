@@ -1,3 +1,8 @@
+/**
+ * Function for formatting the time we get from Open Weather Map API
+ * @returns {{month: string, day: string, date: string, hours: string, minutes: string, year: string}}
+ */
+
 export const timeFormatter = (time: number, offset: number) => {
     const localDateTimeObject = new Date((time * 1000));
 
@@ -15,9 +20,19 @@ export const timeFormatter = (time: number, offset: number) => {
     return formattedDateTimeObject;
 }
 
+/**
+ * Function for converting Kelvin to Celcius
+ * @returns temperatureInKelvin: number
+ */
+
 export const temperatureInCelcius = (temperatureInKelvin: number) => {
     return Math.floor(temperatureInKelvin - 273.15);
 };
+
+/**
+ * Function for converting Kelvin to Faranheit
+ * @returns temperatureInKelvin: number
+ */
 
 export const temperatureInFaranheit = (temperatureInKelvin: number) => {
     return Math.floor(((temperatureInKelvin - 273.15)*1.8) + 32);

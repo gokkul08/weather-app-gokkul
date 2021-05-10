@@ -1,13 +1,13 @@
+/**
+ * This page loads the common styles and styles for all the pages.
+ * It also loads the Navigation bar that will appear on all pages
+ */
+
 import React from 'react';
 import type { AppProps } from 'next/app';
 import { StylesProvider } from '@material-ui/styles';
-import { ThemeProvider } from 'styled-components';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import NavigationBar from '../components/NavigationBar';
-
-const theme = {
-  primary: 'green',
-}
 
 export default function App({ Component, pageProps}: AppProps):  JSX.Element{
 
@@ -21,11 +21,9 @@ export default function App({ Component, pageProps}: AppProps):  JSX.Element{
 
     return (
         <StylesProvider injectFirst>
-            <ThemeProvider theme={theme}>
-                <CssBaseline />
-                <NavigationBar />
-                <Component {...pageProps} />
-            </ThemeProvider>
+          <CssBaseline />
+          <NavigationBar />
+          <Component {...pageProps} />
         </StylesProvider>
     )
   }

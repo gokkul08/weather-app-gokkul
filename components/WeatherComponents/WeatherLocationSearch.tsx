@@ -1,3 +1,9 @@
+/**
+ * This component performs the central operation of accepting input for location
+ * It uses Google Maps JavaScript and Places API to auto-suggest location data
+ * The selected data is made available to WeatherView component to fetch the weather data from the API
+ */
+
 import React, { Dispatch, SetStateAction } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';

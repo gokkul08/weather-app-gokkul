@@ -1,3 +1,7 @@
+/**
+ * This page is provides the view for the Navigation Bar that is available on all the pages
+ */
+
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Link from 'next/link';

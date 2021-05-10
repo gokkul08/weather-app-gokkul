@@ -1,3 +1,9 @@
+/**
+ * This component is imported by pages/[coordinates].tsx
+ * It accepts the weather data as props from the SSR process
+ * The data is manipulated and made available to view on the screen
+ */
+
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Container from '@material-ui/core/Container';

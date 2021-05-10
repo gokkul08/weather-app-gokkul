@@ -1,6 +1,9 @@
+/**
+ * This component retrives the weather icon images using the iconId params from Open Weather Maps
+ */
+
 import React from 'react';
 import Image from 'next/image';
-
 
 interface WeatherIconProps {
     iconId: string;

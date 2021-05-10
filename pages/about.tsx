@@ -1,3 +1,9 @@
+/**
+ * This is the about page.
+ * This contains information about this application and features
+ * This corresponds to /about path
+ */
+
 import React from 'react';
 import styled from 'styled-components';
 import Container from '@material-ui/core/Container';

@@ -1,4 +1,9 @@
-import { GetServerSideProps, GetServerSidePropsResult } from 'next';
+/**
+ * This page performs dynamic routing and fetches the API parameters from the query params
+ * It performs server side rendering to get the API data and pass them as props
+ */
+
+import { GetServerSidePropsResult } from 'next';
 import fetch from 'node-fetch';
 import WeatherDetails from '../../components/WeatherComponents/WeatherDetails';
 
